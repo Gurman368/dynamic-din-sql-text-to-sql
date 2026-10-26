@@ -62,8 +62,8 @@ Dynamic-din-sql/
 **1. Clone and install dependencies**
 
 ```bash
-git clone https://github.com/dg904/Dynamic-din-sql.git
-cd Dynamic-din-sql
+git clone https://github.com/Gurman368/dynamic-din-sql-text-to-sql.git
+cd dynamic-din-sql-text-to-sql
 pip install -r requirements.txt
 ```
 
@@ -160,3 +160,7 @@ A detailed comparison between the original DIN-SQL and this extension is include
 - `faiss-cpu`, `sentence-transformers`, `requests`, `numpy`
 - Spider dataset
 - NVIDIA NIM API key (free tier)
+
+## Credits
+
+Forked from [dg904/Dynamic-din-sql](https://github.com/dg904/Dynamic-din-sql). Extends DIN-SQL (Pourreza and Rafiei, 2023): https://arxiv.org/abs/2304.11015
